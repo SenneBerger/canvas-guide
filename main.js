@@ -84,7 +84,7 @@ c.fill();
 // Now lets just do the exact same thing we did for the first circle
 // write your beginPath arc and fill
 // (for your fillStyle if you want your colors to be random use this guy --> 'rgba('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')')
-// after you've done all this, you should be able to see your circles 
+// after you've done all this, you should be able to see your circles
 // now lets give them a bit of shadow to create some depth
 // also lets go to our css and make our background black
 
@@ -101,7 +101,7 @@ for (var i = 0; i < 500; i++) {
   c.shadowBlur = 7;
   c.shadowColor = "black";
 }
-*/
+  */
 
 
 // look at that, it's starting to look pretty professional
