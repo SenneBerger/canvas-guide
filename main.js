@@ -18,7 +18,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 */
 
-//As you can see the canvas size depends on the size of your browers
+//As you can see the canvas size depends on the size of your browser
 //Lets fix that!
 
 /*
@@ -80,7 +80,7 @@ c.fill();
 
 // Congratz! you can now make a circle, but it's only 1 & you might aswell have done this 25 times faster in any other program.
 // now comment the previous circle we made and lets make 500 of the buggers
-// this is pretty simple, you dan put the single circle in a loop
+// this is pretty simple, you can put the single circle in a loop
 // first of all lets make the loop and write a few variables to randomize everything
 // we need to randomize their positions or they would all just be drawn on top of each other
 // setup your for loop and and write the variables (tip: "window.innerWidth" and "window.innerHeight" to use the full size of your canvas)
@@ -88,7 +88,7 @@ c.fill();
 // if you've used *Math.random()* before, you want to use this together with your canvas innerWidth and innerHeight to randomize the x & y value
 // for the radius, use any number you like. Once we actually see the circles we can change this to our needs
 // Now lets just do the exact same thing we did for the first circle
-// write your beginPath arc and fill
+// write your beginPath, arc and fill
 // (for your fillStyle if you want your colors to be random use this guy --> 'rgba('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')')
 // after you've done all this, you should be able to see your circles
 // now lets give them a bit of shadow to create some depth
