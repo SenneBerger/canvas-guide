@@ -3,24 +3,30 @@
 //First lets refer to our html canvas via variables.
 //I recommend making the variable for "canvas.getContext" very short since we're going to be using this variable quite alot.
 
+/*
 var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
+*/
 
 //(optional) Make a border around the canvas to get a view of what it looks like *you can just do this in css*
 //Get rid of the margin on your canvas
 //The next two lines just make your canvas the size of your initial browser size,
 //you can test this by opening up the browser when it's only the width of half the screen
 
+/*
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+*/
 
 //As you can see the canvas size depends on the size of your browers
 //Lets fix that!
 
+/*
 window.addEventListener('resize', function() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 })
+*/
 
 //this function basicly "resizes" the canvas everytime you resize your border
 //this can be important later to make our content restart when you resize
@@ -101,7 +107,6 @@ for (var i = 0; i < 500; i++) {
   c.shadowBlur = 7;
   c.shadowColor = "black";
 }
-  */
-
+*/
 
 // look at that, it's starting to look pretty professional
