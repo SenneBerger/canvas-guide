@@ -86,6 +86,8 @@ c.fill();
 // (for your fillStyle if you want your colors to be random use this guy --> 'rgba('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')')
 // now lets give a bit of shadow to create some depth
 
+
+/*
 for (var i = 0; i < 500; i++) {
   var x = Math.random() * window.innerWidth;
   var y = Math.random() * window.innerHeight;
@@ -97,5 +99,7 @@ for (var i = 0; i < 500; i++) {
   c.shadowBlur = 7;
   c.shadowColor = "black";
 }
+*/
+
 
 // look at that, it's starting to look pretty professional
