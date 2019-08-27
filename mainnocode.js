@@ -3,24 +3,14 @@
 //First lets refer to our html canvas via variables.
 //I recommend makeing the variable for "canvas.getContext" very short since we're going to be using this variable quite alot.
 
-var canvas = document.querySelector('canvas');
-var c = canvas.getContext('2d');
 
 //(optional) Make a border around the canvas to get a view of what it looks like *you can just do this in css*
 //Get rid of the margin on your canvas
 //The next two lines just make your canvas the size of your initial browser size,
 //you can test this by opening up the browser when it's only the width of half the screen
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
 //As you can see the canvas size depends on the size of your browers
 //Lets fix that!
-
-window.addEventListener('resize', function() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-})
 
 //this function basicly "resizes" the canvas everytime you resize your border
 //this can be important later to make our content restart when you resize
@@ -38,19 +28,6 @@ window.addEventListener('resize', function() {
 // we do this with .fillstyle
 // I highly recommend using rgba() because we can change the opacity very easily which could come in usefull in different projects
 
-
-/*
-c.fillRect(100, 100, 100, 100);
-c.fillstyle = 'rgba(255, 0, 0, 1)';
-
-c.fillRect(200, 300, 100, 100);
-c.fillstyle = 'rgba(255, 0, 0, 1)';
-
-c.fillRect(300, 100, 100, 100);
-c.fillstyle = 'rgba(255, 0, 0, 1)';
-*/
-
-
 // Now that you know how to make a few blocks, you can basicly start coding minecraft & become a billionaire
 
 // Lets make something more interesting now, a circle!
@@ -64,13 +41,6 @@ c.fillstyle = 'rgba(255, 0, 0, 1)';
 // once you're done creating the cirlce, just like the squares we actually need to fill up the circle before we can see it
 // unlike the square we need to use the .fill() function to make sure it fills it with color;
 
-
-/*
-c.beginPath();
-c.arc(300, 300, 100, 0, Math.PI * 2, false);
-c.fillStyle = "red";
-c.fill();
-*/
 
 // Congratz! you can now make a circle, but it's only 1 & you might aswell have done this 25 times faster in any other program.
 // no comment the previous circle we made and lets make 500 of the buggers
@@ -86,21 +56,6 @@ c.fill();
 // (for your fillStyle if you want your colors to be random use this guy --> 'rgba('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')')
 // now lets give a bit of shadow to create some depth
 // also lets go to our css and make our background black
-
-
-/*
-for (var i = 0; i < 500; i++) {
-  var x = Math.random() * window.innerWidth;
-  var y = Math.random() * window.innerHeight;
-  var radius = Math.random() * 40;
-  c.beginPath();
-  c.arc(x, y, radius, 0, Math.PI * 2, false);
-  c.fill();
-  c.fillStyle='rgba('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')';
-  c.shadowBlur = 7;
-  c.shadowColor = "black";
-}
-*/
 
 
 // look at that, it's starting to look pretty professional
