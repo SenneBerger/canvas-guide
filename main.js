@@ -85,6 +85,7 @@ c.fill();
 // write your beginPath arc and fill
 // (for your fillStyle if you want your colors to be random use this guy --> 'rgba('+Math.random()*255+','+Math.random()*255+','+Math.random()*255+')')
 // now lets give a bit of shadow to create some depth
+// also lets go to our css and make our background black
 
 
 /*
