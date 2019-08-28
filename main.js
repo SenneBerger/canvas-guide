@@ -28,7 +28,7 @@ window.addEventListener('resize', function() {
 })
 */
 
-//this function basicly "resizes" the canvas everytime you resize your border
+//this function basicly "resizes" the canvas everytime you resize your browser
 //this can be important later to make our content restart when you resize
 
 //Ok now that we've setup our canvas, lets actually start drawing on the thing
@@ -40,9 +40,10 @@ window.addEventListener('resize', function() {
 // the last two are going to be it's size
 
 // Save and refresh your page and you'll see that nothing happened.
-// we need to either fill these guys with color or draw a border around them
+// we need to either fill these guys with color or draw a border around them, before we can see them.
 // we do this with .fillstyle
 // I highly recommend using rgba() because we can change the opacity very easily which could come in usefull in different projects
+//(extra) if you're making an object you can use "this.opacity" and use "${this.opacity}" as the last value of your rgba() to make it a variable 
 
 
 /*
